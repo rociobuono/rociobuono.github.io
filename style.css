@@ -1,0 +1,311 @@
+body {
+    font-family: gesta, sans-serif;
+    padding-top: 0px;
+    background-color: #EFEFEF;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+    text-underline-position: unset;
+}
+
+/*    NAVBAR  */
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+    line-height: 5px;
+    font-size: .9em;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #999999;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: rgb(46, 45, 45);
+}
+
+.navbar-nav .nav-item {
+    text-transform: uppercase;
+    color: #fff3f3 !important;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav-item button.btn {
+    /*Boton Consultar  */
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 4px 15px;
+    font-size: .9em;
+    font-family: gesta, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav-item button.btn:hover {
+    background-color: #45a049;
+}
+
+.nav-item button.btn:active {
+    background-color: #3e8e41;
+}
+
+/* NAVBAR SCROLL */
+.scrolled {
+    background-color: #EFEFEF;
+}
+
+.scrolled .nav-link {
+    color: rgb(105, 105, 105) !important;
+}
+
+.scrolled .nav-link:hover {
+    color: rgb(58, 56, 56) !important;
+}
+
+.scrolled svg {
+    color: rgb(58, 56, 56);
+}
+
+/* IMAGEN INICIO */
+#inicio {
+    min-height: 100vh;
+    /* La sección ocupará el 100% de la altura de la ventana */
+    background: url('./img/IMG_0360.jpeg') center/cover;
+    /* Utiliza la imagen como fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* SECCION NOSOTROS */
+#nosotrosSection {
+    position: relative;
+    top: -80px;
+}
+
+#nosotros h3 {
+    margin-top: 70px;
+    font-family: gesta, sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: .15em;
+    color: #5c5c5c;
+}
+
+#nosotros h1 {
+    margin-top: 20px;
+    font-family: gesta, sans-serif;
+    font-size: 30px;
+    color: #8a8a8a;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+#nosotros .row {
+    margin-top: 60px;
+    align-items: center;
+}
+
+.card {
+    border: none;
+    background-color: #EFEFEF;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 400px;
+}
+
+.card-text {
+    font-family: gesta, sans-serif;
+    color: #939991;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 600;
+}
+.embed-responsive-16by9::before {
+    padding-top: 56.6037736%;
+}
+/* SECCION APARTAMENTOS */
+
+#apartamentosSection {
+    position: relative;
+    top: -80px;
+}
+
+#apartamentos h1 {
+    font-family: gesta, sans-serif;
+    color: #646464;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: .10em;
+}
+
+.carousel-img {
+    height: 800px;
+    object-fit: cover;
+}
+
+@media (max-width: 767px) {
+    .carousel-img {
+        height: 300px;
+        /* Establece la altura deseada para todas las imágenes en dispositivos móviles */
+        object-fit: cover;
+        /* Mantiene la proporción de la imagen y cubre la altura especificada */
+        width: 100%;
+        /* Asegura que la imagen ocupe el ancho completo del contenedor */
+    }
+}
+
+/* SECCION AMENITIES */
+
+#amenitiesSection {
+    position: relative;
+    top: -80px;
+}
+#amenities h1 {
+    font-family: gesta, sans-serif;
+    color: #646464;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: .10em;
+}
+
+#amenities h2 {
+    font-family: gesta, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 400;
+    /* color: #A8C1E3; */
+    color: #8a8a8a;
+}
+#amenities h3 {
+    font-family: gesta, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    color: #5a5959;
+}
+#amenities img {
+    margin-top: 30px;
+    width: 40%;
+    max-width: 128px;
+    height: auto;
+}
+
+/* SECTION UBICACION */
+#ubicacionSection {
+    position: relative;
+    top: -80px;
+}
+
+#ubicacion {
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+#ubicacion h1 {
+    font-family: gesta, sans-serif;
+    color: #646464;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: .10em;
+}
+#ubicacion ul {
+    /* margin-top: 20px; */
+    font-family: gesta, sans-serif;
+    font-size: 1.4em;
+    /* text-transform: uppercase; */
+    /* color: #A8C1E3; */
+    color: #8a8a8a;
+    background-color: #EFEFEF;
+}
+#ubicacion li {
+    margin-top: 30px;
+}
+
+/* SECTION COMENTARIOS */
+#comentariosSection {
+    position: relative;
+    top: -80px;
+}
+#comentarios {
+    margin-top: 100px;
+}
+#comentarios h2 {
+    font-family: gesta, sans-serif;
+    color: #738599;
+    margin-bottom: 50px;
+}
+
+/* whatsapp ICON */
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 65px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #738599;
+    color: white;
+    .about-company {
+        i {
+            font-size: 25px;
+        }
+
+        a {
+            color: white;
+            transition: color .2s;
+
+            &:hover {
+                color: #4180CB
+            }
+        }
+    }
+
+    .location {
+        i {
+            font-size: 18px;
+        }
+    }
+
+    .copyright p {
+        border-top: 1px solid rgba(255, 255, 255, .1);
+    }
+    
+}
