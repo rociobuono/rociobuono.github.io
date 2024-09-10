@@ -200,6 +200,11 @@ a {
     /* color: #A8C1E3; */
     color: #8a8a8a;
 }
+@media (max-width: 767px) {
+    #amenities h2 {
+        font-size: 0.8em; 
+    }
+}
 #amenities h3 {
     font-family: gesta, sans-serif;
     font-size: 1.5em;
