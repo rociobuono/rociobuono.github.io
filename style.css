@@ -107,12 +107,16 @@ a {
 #nosotros h1 {
     margin-top: 20px;
     font-family: gesta, sans-serif;
-    font-size: 25px;
+    font-size: 24px;
     color: #8a8a8a;
     text-align: center;
     line-height: 1.4em;
 }
-
+@media (max-width: 767px) {
+    #nosotros h1 {
+        font-size: 16px;
+    }
+}
 #nosotros .row {
     margin-top: 60px;
     align-items: center;
